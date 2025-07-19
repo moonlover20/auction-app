@@ -7,13 +7,25 @@
 <link href="https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSans.css" rel="stylesheet">
 
   <style>
-    body {
-      font-family: 'Segoe UI', 'Malgun Gothic', sans-serif;
-      background: url('https://i.imgur.com/s8D3fvg.png') no-repeat center center fixed;
-      background-size: cover;
-      margin: 0;
-      padding: 0;
-    }
+body {
+  font-family: 'Segoe UI', 'Malgun Gothic', sans-serif;
+  background: none; /* 기존 배경 없애기 */
+  margin: 0;
+  padding: 0;
+  position: relative; /* ::before가 위치할 기준 */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('https://i.imgur.com/s8D3fvg.png') no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(6px) brightness(0.85);
+  z-index: -1;
+  pointer-events: none;
+}
+
     .main-container {
       display: flex;
       justify-content: flex-start;
