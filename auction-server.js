@@ -102,6 +102,7 @@ io.on('connection', (socket) => {
     pickedPlayers,
     failedPlayers,
  playerImageMap, 
+   teamRoster,
   });
   socket.on('setPlayerStatus', ({ name, status }) => {
     // 1. 이름이 있으면 picked, failed 모두에서 제거
@@ -147,6 +148,7 @@ socket.on('setTeamPoints', ({ team, point }) => {
       pickedPlayers,
       failedPlayers,
  playerImageMap,
+     teamRoster
     });
   });
 
@@ -298,16 +300,6 @@ socket.on('confirmAuction', () => {
   io.emit('updateRoster', teamRoster); // 추가! 클라이언트에 roster 보내기
 });
 
-// 서버가 초기화할 때도 함께 전송
-socket.emit('init', {
-  teamNames,
-  teamPoints,
-  playerList,
-  auctionState,
-  pickedPlayers,
-  failedPlayers,
-  teamRoster, // 추가!
-});
 
 
 
