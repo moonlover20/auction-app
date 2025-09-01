@@ -178,11 +178,11 @@ socket.on('newBid', ({team, bid, history}) => {
 
 socket.on('updatePoints', (points) => {
   teamPoints = points;
-  renderRight();
+  renderRosterTable(); 
 });
 socket.on('updateHistory', (fullHistory) => {
   auctionState.fullHistory = fullHistory;
-  renderRight();
+  renderRosterTable(); 
 });
 socket.on('updateFailedPlayers', (failedList) => {
   failedPlayers = failedList;
