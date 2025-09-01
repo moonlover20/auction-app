@@ -182,7 +182,7 @@ socket.on('updatePoints', (points) => {
 });
 socket.on('updateHistory', (fullHistory) => {
   auctionState.fullHistory = fullHistory;
-  renderRosterTable(); 
+  renderHistory(); 
 });
 socket.on('updateFailedPlayers', (failedList) => {
   failedPlayers = failedList;
