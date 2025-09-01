@@ -39,9 +39,9 @@ const playerImageMap = {
 '견습생': 'https://i.imgur.com/EV5W8Aj.png',
 };
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
-const teamNames = ['각반', '대림', '장수풍뎅이', '러부엉', '양갱', '블페러'];
+const teamNames = ['탱글부엉', '의리크루', '광천도류회', '데스노트', '과즙상태', ];
 let auctionInterval = null;
-let teamPoints = { 각반: 800, 대림: 850, 장수풍뎅이: 900, 러부엉: 900, 양갱: 930, 블페러: 1000 };
+let teamPoints = { 탱글부엉: 20000, 의리크루: 20000, 광천도류회: 20000, 데스노트: 20000, 과즙상태: 20000 };
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
@@ -71,12 +71,11 @@ let playerList = [
   { name: '도민', tier: 'I', pos: '서폿' },
 ];
 let teamRoster = {
-  각반: [],
-  대림: [],
-  장수풍뎅이: [],
-  러부엉: [],
-  양갱: [],
-  블페러: [],
+  탱글부엉: [],
+  의리크루: [],
+  광천도류회: [],
+  데스노트: [],
+  과즙상태: [],
 };
 
 let auctionState = {
