@@ -448,7 +448,7 @@ window.bid = () => {
     return;
   }
   if (!team || isNaN(bid) || bid < 1) return;
-  if (bid % 5 !== 0) {
+  if (bid % 100 !== 0) {
     showBidAlert('입찰은 100포인트 단위로만 가능합니다.', false);
     return;
   }
