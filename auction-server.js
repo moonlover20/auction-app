@@ -48,7 +48,6 @@ let teamPoints = { 탱글부엉: 20000, 의리크루: 20000, 광천도류회: 20
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
-  { name: '블페러', tier: 'D', pos: '정글' },
    { name: '케케로', tier: 'D', pos: '탑' },
   { name: '마로마옹', tier: 'E', pos: '탑' },
   { name: '효택', tier: 'E', pos: '정글' },
