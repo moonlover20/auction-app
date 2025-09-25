@@ -53,7 +53,7 @@ let playerList = [
   { name: '효택', tier: 'E', pos: '정글' },
   { name: '박제인간', tier: 'E', pos: '정글' },
   { name: '까치', tier: 'E', pos: '정글' },
-  { name: '제프', tier: 'S', pos: '미드' },
+  { name: '제프리', tier: 'S', pos: '미드' },
    { name: '도민', tier: 'I', pos: '서폿' },
 ];
 let teamRoster = {
