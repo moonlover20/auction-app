@@ -98,7 +98,7 @@ function renderRosterTable() {
   if (!tbl) return;
   tbl.innerHTML = teamNames.map(team => {
     const names = (teamRoster[team] || []).map(nick => `<td>${nick}</td>`).join('');
-    const remain = `<td class="remain">${teamPoints[team] || 0}p</td>`;
+    const remain = `<td class="remain">${teamPoints[team] || 0}원</td>`;
     return `<tr>
       <td class="team-name">${team}</td>
       ${names}
