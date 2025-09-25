@@ -406,7 +406,7 @@ function renderHistory() {
       `<tr>
         <td>${row.team}</td>
         <td>${row.player || '-'}</td>
-        <td>${row.bid}</td>
+        <td>${row.bid}원</td>
       </tr>`
     ).join('');
   } else {
