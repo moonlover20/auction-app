@@ -37,9 +37,9 @@ const playerImageMap = {
 '각반': 'https://i.imgur.com/zdK62dW.png',
 '라포': 'https://i.imgur.com/V6D2A5F.png',
 '견습생': 'https://i.imgur.com/EV5W8Aj.png',
- '효택': 'https://i.imgur.com/D3Hrj5q.png',
-  '제프리': 'https://i.imgur.com/0rGxpyC.png',
-  '마로마옹': 'https://i.imgur.com/8MVHry9.png',
+ '효택': 'https://i.imgur.com/AxWCpH1.png',
+  '제프리': 'https://i.imgur.com/YUqJfvm.png',
+  '마로마옹': 'https://i.imgur.com/iOqfBsC.png',
 };
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
 const teamNames = ['탱글부엉', '의리크루', '광천도류회',  '과즙상태', ];
