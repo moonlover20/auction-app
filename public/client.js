@@ -390,7 +390,7 @@ function renderRight() {
 }
 
 function renderCenter() {
-  document.getElementById('currentBid').textContent = (auctionState.currentBid || 0) + " P";
+  document.getElementById('currentBid').textContent = (auctionState.currentBid || 0) + " 원";
   document.getElementById('currentBidTeam').textContent = auctionState.currentTeam || '-';
   document.getElementById('topTeamName').textContent = myTeam;
   let msg = '';
