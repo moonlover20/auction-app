@@ -42,22 +42,24 @@ const playerImageMap = {
   '마로마옹': 'https://i.imgur.com/iOqfBsC.png',
 };
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
-const teamNames = ['탱글부엉', '의리크루', '광천도류회',  '과즙상태', ];
+const teamNames = [ '의리크루', '광천도류회',  '과즙상태', ];
 let auctionInterval = null;
-let teamPoints = { 탱글부엉: 20000, 의리크루: 20000, 광천도류회: 20000, 과즙상태: 20000 };
+let teamPoints = { 의리크루: 20000, 광천도류회: 20000, 과즙상태: 20000 };
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
-   { name: '케케로', tier: 'D', pos: '탑' },
-  { name: '마로마옹', tier: 'E', pos: '탑' },
-  { name: '효택', tier: 'E', pos: '정글' },
-  { name: '박제인간', tier: 'E', pos: '정글' },
-  { name: '까치', tier: 'E', pos: '정글' },
-  { name: '제프리', tier: 'S', pos: '미드' },
-   { name: '도민', tier: 'I', pos: '서폿' },
+   { name: '고만로', tier: 'M', pos: '정글' },
+  { name: '러부엉', tier: 'M', pos: '서폿' },
+  { name: '아펠', tier: 'M', pos: '원딜' },
+  { name: '케케로', tier: 'D', pos: '탑' },
+  { name: '숨이다', tier: 'E', pos: '정글' },
+  { name: '알빠노', tier: 'E', pos: '미드' },
+   { name: '포베어', tier: 'E', pos: '탑' },
+ { name: '효택', tier: 'E', pos: '정글' },
+ { name: '박제인간', tier: 'P', pos: '정글' },
+ { name: '타포', tier: 'S', pos: '원딜' },
 ];
 let teamRoster = {
-  탱글부엉: [],
   의리크루: [],
   광천도류회: [],
   과즙상태: [],
