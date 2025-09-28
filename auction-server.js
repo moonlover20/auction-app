@@ -50,14 +50,16 @@ let failedPlayers = [];
 let playerList = [
    { name: '고만로', tier: 'M', pos: '정글' },
   { name: '러부엉', tier: 'M', pos: '서폿' },
-  { name: '아펠', tier: 'M', pos: '원딜' },
+  { name: '미현', tier: 'M', pos: '원딜' },
   { name: '케케로', tier: 'D', pos: '탑' },
-  { name: '숨이다', tier: 'E', pos: '정글' },
+  { name: '블페러', tier: 'D', pos: '정글' },
+  { name: 'COZ', tier: 'D', pos: '서폿' },
   { name: '알빠노', tier: 'E', pos: '미드' },
    { name: '포베어', tier: 'E', pos: '탑' },
  { name: '효택', tier: 'E', pos: '정글' },
  { name: '박제인간', tier: 'P', pos: '정글' },
  { name: '타포', tier: 'S', pos: '원딜' },
+  { name: '한쥐', tier: 'I', pos: '서폿' },
 ];
 let teamRoster = {
   의리크루: [],
