@@ -47,6 +47,8 @@ const playerImageMap = {
    '포베어': 'https://i.imgur.com/xgFs1Vt.png',
    '에스텔': 'https://i.imgur.com/06WN0dI.png',
    '한쥐': 'https://i.imgur.com/puFSrBw.png',
+   '미현': 'https://i.imgur.com/C8Tu2Ml.png',
+  
  
 };
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
