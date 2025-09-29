@@ -40,6 +40,14 @@ const playerImageMap = {
  '효택': 'https://i.imgur.com/AxWCpH1.png',
   '제프리': 'https://i.imgur.com/YUqJfvm.png',
   '마로마옹': 'https://i.imgur.com/iOqfBsC.png',
+   '고만로': 'https://i.imgur.com/29CT0mf.png',
+   '아펠': 'https://i.imgur.com/MWmdso8.png',
+   'COZ': 'https://i.imgur.com/leuPJMJ.png',
+   '알빠노': 'https://i.imgur.com/KSfj6Hj.png',
+   '포베어': 'https://i.imgur.com/xgFs1Vt.png',
+   '에스텔': 'https://i.imgur.com/06WN0dI.png',
+   '한쥐': 'https://i.imgur.com/puFSrBw.png',
+ 
 };
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
 const teamNames = [ '의리크루', '광천도류회',  '과즙상태', ];
