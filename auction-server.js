@@ -60,12 +60,10 @@ let failedPlayers = [];
 let playerList = [
    { name: '고만로', tier: 'M', pos: '정글' },
     { name: '아펠', tier: 'M', pos: '원딜' },
-  { name: '러부엉', tier: 'M', pos: '서폿' },
   { name: '미현', tier: 'M', pos: '원딜' },
   { name: '케케로', tier: 'D', pos: '탑' },
   { name: '블페러', tier: 'D', pos: '정글' },
   { name: 'COZ', tier: 'D', pos: '서폿' },
-  { name: '알빠노', tier: 'E', pos: '미드' },
    { name: '포베어', tier: 'E', pos: '탑' },
  { name: '효택', tier: 'E', pos: '정글' },
  { name: '에스텔', tier: 'E', pos: '원딜' },
