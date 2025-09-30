@@ -54,7 +54,7 @@ const playerImageMap = {
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
 const teamNames = [ '의리크루', '광천도류회',  '과즙상태', ];
 let auctionInterval = null;
-let teamPoints = { 의리크루: 20000, 광천도류회: 20000, 과즙상태: 20000 };
+let teamPoints = { 의리크루: 30000, 광천도류회: 30000, 과즙상태: 30000 };
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
