@@ -68,7 +68,6 @@ let playerList = [
  { name: '효택', tier: 'E', pos: '정글' },
  { name: '에스텔', tier: 'E', pos: '원딜' },
   { name: '박제인간', tier: 'P', pos: '정글' },
-  { name: '한쥐', tier: 'I', pos: '서폿' },
 ];
 let teamRoster = {
   의리크루: [],
