@@ -68,6 +68,14 @@ let playerList = [
  { name: '에스텔', tier: 'E', pos: '원딜' },
   { name: '박제인간', tier: 'P', pos: '정글' },
    { name: '제프', tier: 'S', pos: '미드' },
+     { name: '아펠', tier: 'M', pos: '원딜' },
+  { name: '미현', tier: 'M', pos: '원딜' },
+  { name: '케케로', tier: 'D', pos: '탑' },
+  { name: '블페러', tier: 'D', pos: '정글' },
+  { name: 'COZ', tier: 'D', pos: '서폿' },
+ { name: '효택', tier: 'E', pos: '정글' },
+ { name: '에스텔', tier: 'E', pos: '원딜' },
+
 ];
 let teamRoster = {
   의리크루: [],
