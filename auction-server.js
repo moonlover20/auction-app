@@ -52,9 +52,9 @@ const playerImageMap = {
  
 };
 // 더미 데이터: 실제로는 DB나 시트에서 불러오면 됨
-const teamNames = [ '의리크루', '광천도류회',  '과즙상태', ];
+const teamNames = [ '나무', '훈상태',  '온스터','갓코', ];
 let auctionInterval = null;
-let teamPoints = { 의리크루: 30000, 광천도류회: 30000, 과즙상태: 30000 };
+let teamPoints = { 나무: 50000, 훈상태: 50000, 온스터: 50000, 갓코: 50000 };
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
@@ -78,9 +78,10 @@ let playerList = [
 
 ];
 let teamRoster = {
-  의리크루: [],
-  광천도류회: [],
-  과즙상태: [],
+  나무: [],
+  훈상태: [],
+  온스터: [],
+ 갓코: [],
 };
 
 let auctionState = {
