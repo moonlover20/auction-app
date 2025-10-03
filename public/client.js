@@ -1,4 +1,4 @@
-const allowedTeams = [ '나무', '훈상태',  '온스터',  '광천김',];
+const allowedTeams = [ '나무', '훈상태',  '온스터',  '광천김','관전자'];
 const teamPasswords = {
   '나무': '1623',
   '훈상태': '7655',
