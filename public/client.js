@@ -1,8 +1,9 @@
-const allowedTeams = [ '의리크루', '광천도류회',  '과즙상태',  '관전자',];
+const allowedTeams = [ '나무', '훈상태',  '온스터','광천김',  '관전자',];
 const teamPasswords = {
-  '의리크루': '1623',
-  '광천도류회': '7655',
-  '과즙상태': '5432',
+  '나무': '1623',
+  '훈상태': '7655',
+  '온스터': '5432',
+    '광천김': '5232',
   '관전자': '1396',
 };
 
@@ -45,167 +46,8 @@ window.onload = function() {
     const normalPickBtn = document.getElementById('normalPickBtn');
     if (normalPickBtn) {
       normalPickBtn.onclick = function() {
-        if (isRouletteRunning) return;      // 3초 내 중복 방지
-        socket.emit('normalPick');
-        isRouletteRunning = true;
-        normalPickBtn.disabled = true;       // 버튼도 잠금
-      };
-    }
-  }
-};
-
-let pickedPlayers = [];
-let failedPlayers = [];
-let teamRoster = {};
-const socket = io();
-let teamNames = [];
-let teamPoints = {};
-let playerList = [];
-let auctionState = {};
-let isRouletteRunning = false;
-
-// 버튼 활성화 함수 (전역에서 참조)
-let updateConfirmButton = null;
-
-// 최초 데이터 받기
-socket.on('init', (data) => {
-  teamNames = data.teamNames;
-  teamPoints = data.teamPoints;
-  playerList = data.playerList;
-  auctionState = data.auctionState;
-  pickedPlayers = data.pickedPlayers || [];
-  teamRoster = data.teamRoster || {};
-  failedPlayers = data.failedPlayers || [];
-  renderRosterTable();
-  renderAll();
-});
-
-socket.on('updateRoster', (roster) => {
-  teamRoster = roster;
-  renderRosterTable();
-});
-
-function playBbyong() {
-  const audio = document.getElementById('bbyong-sound');
-  if (audio) {
-    audio.currentTime = 0;
-    audio.play();
-  }
-}
-function renderRosterTable() {
-  const tbl = document.getElementById('rosterTable');
-  if (!tbl) return;
-  tbl.innerHTML = teamNames.map(team => {
-    const names = (teamRoster[team] || []).map(nick => `<td>${nick}</td>`).join('');
-    const remain = `<td class="remain">${teamPoints[team] || 0}원</td>`;
-    return `<tr>
-      <td class="team-name">${team}</td>
-      ${names}
-      ${'<td></td>'.repeat(4 - (teamRoster[team]?.length || 0))} 
-      ${remain}
-    </tr>`;
-  }).join('');
-}
-socket.on('normalPickResult', function(data) {
-  // data: { name, image }
-  if (!data.name) {
-    document.getElementById('rouletteDisplay').innerHTML = '<span style="color:red">더 이상 뽑을 선수가 없습니다.</span>';
-    isRouletteRunning = false;
-    const normalPickBtn = document.getElementById('normalPickBtn');
-    if (normalPickBtn) normalPickBtn.disabled = false;
-    return;
-  }
-  auctionState.currentPlayer = data.name; 
-  startRouletteAnimation(data.name, data.image);  // <- 이걸로 통일
-});
-
-
-
-// 새 유저 동기화
-socket.emit('getState');
-
-// 경매 관련 이벤트(모두 한 번만 바인딩)
-socket.on('auctionStarted', (state) => {
-  auctionState = state;
-  renderCenter();
-  renderHistory();
-  if (updateConfirmButton) updateConfirmButton();
-});
-
-socket.on('auctionEnded', (state) => {
-  auctionState = state;
-  renderCenter();
-  renderHistory();
-  if (updateConfirmButton) updateConfirmButton();
-  if (auctionState.currentTeam) {
-    // 낙찰(입찰팀 있음) 시
-    playConfirm();
-  } else {
-    // 유찰(입찰팀 없음) 시
-    showBidAlert('유찰되었습니다!', false); // 이 줄로 교체!
-  }
-});
-
-
-
-socket.on('auctionCanceled', (state) => {
-  auctionState = state;
-  renderCenter();
-  renderHistory();
-  if (myTeam === '관전자') {
-    showBidAlert('유찰되었습니다!', false);
-  }
-  if (updateConfirmButton) updateConfirmButton();
-});
-
-
-socket.on('timer', (timer) => {
-  auctionState.timer = timer;
-  document.getElementById('auctionTimer').textContent = timer;
-  if (updateConfirmButton) updateConfirmButton();
-});
-
-socket.on('newBid', ({team, bid, history}) => {
-  auctionState.currentBid = bid;
-  auctionState.currentTeam = team;
-  auctionState.history = history;
-  renderCenter();
-  renderHistory();
-  playBbyong();
-});
-
-socket.on('updatePoints', (points) => {
-  teamPoints = points;
-  renderRosterTable(); 
-});
-socket.on('updateHistory', (fullHistory) => {
-  auctionState.fullHistory = fullHistory;
-  renderHistory(); 
-});
-socket.on('updateFailedPlayers', (failedList) => {
-  failedPlayers = failedList;
-  renderLeft();
-});
-socket.on('updatePlayers', ({ pickedPlayers: picked, failedPlayers: failed }) => {
-  pickedPlayers = picked;
-  failedPlayers = failed;
-  renderLeft();
-});
-socket.on('bidResult', ({ success, message }) => {
-  showBidAlert(message, success);
-  document.getElementById('bidBtn').disabled = false;
-});
-// 1. 채팅 메시지 받기
-socket.on('chatMessage', ({ team, name, message, timestamp }) => {
-  const chatMessages = document.getElementById('chatMessages');
-  if (!chatMessages) return;
-  const time = new Date(timestamp);
-  const hhmm = time.toTimeString().slice(0,5);
-
-  // 팀별 색상 부여(예시)
-  const teamColors = {
-    '탱글부엉': '#5e72e4', '의리크루': '#fd9644', '광천도류회': '#20bf6b',
-    '데스노트': '#8854d0', '과즙상태': '#f7b731',  '관전자':'#8395a7'
+김': '#fd9644', '광천도류회': '#20bf6b',
+    '온스터': '#8854d0', '훈상태': '#f7b731',  '관전자':'#8395a7'
   };
   const color = teamColors[team] || '#888';
 
