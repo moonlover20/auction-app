@@ -59,22 +59,28 @@ let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
 
-    { name: '아펠', tier: 'M', pos: '원딜' },
-  { name: '미현', tier: 'M', pos: '원딜' },
-  { name: '케케로', tier: 'D', pos: '탑' },
+    { name: '로즈', tier: 'C', pos: '미드' },
+  { name: '달좋', tier: 'GM', pos: '서폿' },
+  { name: '찐석', tier: 'GM', pos: '원딜' },
+  { name: '김춘식', tier: 'M', pos: '탑' },
+  { name: '케터', tier: 'M', pos: '미드' },
+  { name: '러부엉', tier: 'M', pos: '서폿' },
+  { name: '말대모', tier: 'M', pos: '미드' },
+  { name: '오픈더', tier: 'M', pos: '원딜' },
   { name: '블페러', tier: 'D', pos: '정글' },
-  { name: 'COZ', tier: 'D', pos: '서폿' },
- { name: '효택', tier: 'E', pos: '정글' },
- { name: '에스텔', tier: 'E', pos: '원딜' },
-  { name: '박제인간', tier: 'P', pos: '정글' },
-   { name: '제프', tier: 'S', pos: '미드' },
-     { name: '아펠', tier: 'M', pos: '원딜' },
-  { name: '미현', tier: 'M', pos: '원딜' },
-  { name: '케케로', tier: 'D', pos: '탑' },
-  { name: '블페러', tier: 'D', pos: '정글' },
-  { name: 'COZ', tier: 'D', pos: '서폿' },
- { name: '효택', tier: 'E', pos: '정글' },
- { name: '에스텔', tier: 'E', pos: '원딜' },
+   { name: '재민', tier: 'D', pos: '탑' },
+   { name: '조이', tier: 'D', pos: '미드' },
+ { name: '현진', tier: 'E', pos: '탑' },
+  { name: '까치', tier: 'E', pos: '정글' },
+  { name: '숨이다', tier: 'E', pos: '정글' },
+  { name: '흑별', tier: 'E', pos: '탑' },
+  { name: '바나나', tier: 'E', pos: '원딜' },
+  { name: '키죠', tier: 'E', pos: '원딜' },
+  { name: '러라', tier: 'E', pos: '서폿' },
+
+  { name: '승우', tier: 'P', pos: '원딜' },
+   { name: '대파', tier: 'P', pos: '원딜' },
+
 
 ];
 let teamRoster = {
