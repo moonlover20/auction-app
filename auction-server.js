@@ -91,8 +91,7 @@ let teamRoster = {
   훈상태: [],
   온스터: [],
  갓코: [],
-  미주: [],
-  한쥐: [],
+ 
 };
 
 let auctionState = {
