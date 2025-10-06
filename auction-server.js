@@ -52,9 +52,9 @@ const playerImageMap = {
  
 };
 
-const teamNames = [ '나무', '훈상태',  '온스터','광천김','미주','한쥐', ];
+const teamNames = [ '나무', '훈상태',  '온스터','광천김' ];
 let auctionInterval = null;
-let teamPoints = { 나무: 50000, 훈상태: 50000, 온스터: 50000, 광천김: 50000, 미주: 50000, 한쥐: 50000 };
+let teamPoints = { 나무: 50000, 훈상태: 50000, 온스터: 50000, 광천김: 50000 };
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
