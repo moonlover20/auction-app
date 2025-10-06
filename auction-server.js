@@ -79,7 +79,7 @@ let playerList = [
   { name: '키죠', tier: 'E', pos: '원딜' },
   { name: '러라', tier: 'E', pos: '서폿' },
    { name: '효택', tier: 'P', pos: '정글' },
-  { name: '노잭, tier: 'P', pos: '서폿' },
+    { name: '노잭', tier: 'P', pos: '서폿' },
   { name: '승우', tier: 'P', pos: '원딜' },
    { name: '대파', tier: 'P', pos: '원딜' },
   { name: '타포', tier: 'P', pos: '원딜' },
