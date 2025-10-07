@@ -27,7 +27,7 @@ const playerImageMap = {
 '케케로': 'https://i.imgur.com/2jPJ5iK.png',
 '블페러': 'https://i.imgur.com/2uIczlY.png',
 '양갱': 'https://i.imgur.com/sOpLidA.png',
-'강조이': 'https://i.imgur.com/jGz4gfX.png',
+'조이': 'https://i.imgur.com/jGz4gfX.png',
 '르블이': 'https://i.imgur.com/IeUn4BK.png',
 '말대모': 'https://i.imgur.com/fYlj1vU.png',
 '장수풍뎅이': 'https://i.imgur.com/pOQBcBM.png',
@@ -48,6 +48,19 @@ const playerImageMap = {
    '에스텔': 'https://i.imgur.com/06WN0dI.png',
    '한쥐': 'https://i.imgur.com/puFSrBw.png',
    '미현': 'https://i.imgur.com/C8Tu2Ml.png',
+    '로즈': 'https://i.imgur.com/WmBkx9k.jpeg',
+     '찐석': 'https://i.imgur.com/t34JF9v.jpeg',
+   '김춘식': 'https://i.imgur.com/yEZo2d0.jpeg',
+   '오픈더': '',
+       '달좋': '',
+   '엄소지': '',
+   '믜야': '',
+'숨이다': 'https://i.imgur.com/K4XVcUy.jpeg',
+'흑별': 'https://i.imgur.com/sfODJOP.jpeg',
+'장종학': '',
+ '소율': 'https://i.imgur.com/JmmwjHN.jpeg',
+
+
   
  
 };
