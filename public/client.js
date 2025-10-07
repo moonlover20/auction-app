@@ -209,7 +209,8 @@ socket.on('chatMessage', ({ team, name, message, timestamp }) => {
   // 팀별 색상 부여(예시)
   const teamColors = {
     '광천김': '#5e72e4', '훈상태': '#fd9644', '승우': '#20bf6b',
-    '온스터': '#8854d0', '나무': '#f7b731',  '관전자':'#8395a7'
+    '온스터': '#8854d0', '나무': '#f7b731',  '관전자':'#8395a7', '대파': '#6c5ce7',
+'타포': '#e84393'
   };
   const color = teamColors[team] || '#888';
 
