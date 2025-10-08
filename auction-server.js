@@ -286,9 +286,9 @@ socket.on('bid', ({ team, bid }) => {
     return;
   }
 
-  // 100포인트 단위로만 입찰 허용!
-  if (bid % 100 !== 0) {
-    socket.emit('bidResult', { success: false, message: '입찰은 100포인트 단위로만 가능합니다.' });
+  // 500포인트 단위로만 입찰 허용!
+  if (bid % 500 !== 0) {
+    socket.emit('bidResult', { success: false, message: '입찰은 500포인트 단위로만 가능합니다.' });
     return;
   }
   if (bid > auctionState.currentBid && bid <= teamPoints[team]) {
