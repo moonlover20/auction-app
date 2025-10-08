@@ -65,14 +65,15 @@ const playerImageMap = {
  
 };
 
-const teamNames = [ '나무', '훈상태',  '온스터','광천김','승우','대파','타포' ];
+const teamNames = [ '나무', '훈상태',  '온스터','광천김','승우','대파','타포','노잭' ];
 let auctionInterval = null;
-let teamPoints = { 나무: 50000, 훈상태: 50000, 온스터: 50000, 광천김: 50000, 승우: 50000, 대파: 50000, 타포: 50000 };
+let teamPoints = { 나무: 40000, 훈상태: 40000, 온스터: 40000, 광천김: 45000, 승우: 33000, 대파: 33000, 타포: 33000 , 노잭: 33000 };
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
 
     { name: '로즈', tier: 'C', pos: '미드' },
+     { name: '각반', tier: 'C', pos: '탑' },
   { name: '달좋', tier: 'GM', pos: '서폿' },
   { name: '찐석', tier: 'GM', pos: '원딜' },
  { name: '엄소지', tier: 'GM', pos: '정글' },
@@ -81,6 +82,7 @@ let playerList = [
   { name: '케터', tier: 'M', pos: '미드' },
   { name: '러부엉', tier: 'M', pos: '서폿' },
   { name: '말대모', tier: 'M', pos: '미드' },
+   { name: '르블이', tier: 'M', pos: '미드' },
   { name: '오픈더', tier: 'M', pos: '원딜' },
    { name: '양갱', tier: 'M', pos: '미드' },
   { name: '블페러', tier: 'D', pos: '정글' },
@@ -95,7 +97,9 @@ let playerList = [
   { name: '키죠', tier: 'E', pos: '원딜' },
   { name: '러라', tier: 'E', pos: '서폿' },
    { name: '효택', tier: 'E', pos: '정글' },
-   { name: '노잭', tier: 'P', pos: '서폿' },
+    { name: '알빠노', tier: 'E', pos: '미드' },
+    { name: '자초봇', tier: 'E', pos: '서폿' },
+    { name: '포베어', tier: 'E', pos: '탑' },
   { name: '장종학', tier: 'P', pos: '원딜' },
   { name: '소율', tier: 'S', pos: '서폿' },
    { name: '미주', tier: 'S', pos: '서폿' },
@@ -110,6 +114,7 @@ let teamRoster = {
   승우: [],
   대파: [],
   타포: [],
+   노잭: [],
  
 };
 
