@@ -53,7 +53,7 @@ const playerImageMap = {
    '김춘식': 'https://i.imgur.com/yEZo2d0.jpeg',
    '오픈더': 'https://i.imgur.com/mSUsARz.png',
        '달좋': 'https://i.imgur.com/gPyCsgL.png',
-   '엄소지': '',
+   '엄소지': 'https://i.imgur.com/9Ih66Dm.png',
    '믜야': 'https://i.imgur.com/2jNNQt1.png',
   '자잘자': 'https://i.imgur.com/dCLeHpC.png',
 '숨이다': 'https://i.imgur.com/K4XVcUy.jpeg',
