@@ -59,7 +59,7 @@ const playerImageMap = {
 '숨이다': 'https://i.imgur.com/K4XVcUy.jpeg',
 '흑별': 'https://i.imgur.com/sfODJOP.jpeg',
 '쿠쿠': 'https://i.imgur.com/3vB3jHn.png',
- '자초봇': '',
+ '자초봇': 'https://i.imgur.com/IbZK86O.png',
  '소율': 'https://i.imgur.com/JmmwjHN.jpeg',
 
 
