@@ -77,9 +77,9 @@ const playerImageMap = {
  
 };
 
-const teamNames = [ '사과', '바나나',  '파인애플','배','딸기','수박' ];
+const teamNames = [ '블페러', '포베어',  '혜철이','박제인간','훈상태','까치' ];
 let auctionInterval = null;
-let teamPoints = { 사과: 40000, 바나나: 40000, 파인애플: 40000, 배: 45000, 딸기: 33000, 수박: 33000};
+let teamPoints = { 블페러: 29000, 혜철이: 32500, 박제인간: 36000, 포베어: 36000, 까치: 37000, 훈상태: 40000};
 let pickedPlayers = [];
 let failedPlayers = [];
 let playerList = [
@@ -92,37 +92,31 @@ let playerList = [
  { name: '빙젭', tier: 'M', pos: '원딜' },
   { name: '케터', tier: 'M', pos: '미드' },
   { name: '성짹짹이', tier: 'M', pos: '미드' },
-  { name: '블페러', tier: 'D', pos: '탑' },
-  { name: '혜철이', tier: 'D', pos: '원딜' },
    { name: '자잘자', tier: 'D', pos: '미드' },
   { name: '물결의', tier: 'D', pos: '탑' },
    { name: '케케로', tier: 'D', pos: '탑' },
   { name: '대파', tier: 'E', pos: '서폿' },
   { name: '사미언', tier: 'E', pos: '정글' },
-  { name: '박제인간', tier: 'E', pos: '정글' },
    { name: '승우', tier: 'E', pos: '원딜' },
    { name: '키죠', tier: 'E', pos: '원딜' },
  { name: '타포', tier: 'E', pos: '원딜' },
  { name: '소실아', tier: 'E', pos: '정글' },
 { name: '알빠노', tier: 'E', pos: '미드' },
   { name: '스카이캐슬', tier: 'E', pos: '서폿' },
-  { name: '까치', tier: 'E', pos: '정글' },
-  { name: '포베어', tier: 'E', pos: '탑' },
   { name: '노잭', tier: 'P', pos: '서폿' },
   { name: '장잭', tier: 'P', pos: '정글' },
     { name: '크립', tier: 'P', pos: '원딜' },
     { name: '새벽의악마', tier: 'P', pos: '미드' },
-    { name: '훈상태', tier: 'P', pos: '탑' },
   { name: '호박고구마', tier: 'G', pos: '서폿' },
 
 ];
 let teamRoster = {
-  사과: [],
-  바나나: [],
-  파인애플: [],
- 배: [],
-  딸기: [],
-  수박: [],
+  블페러: [],
+  포베어: [],
+  혜철이: [],
+ 박제인간: [],
+  훈상태: [],
+  까치: [],
    
 };
 
