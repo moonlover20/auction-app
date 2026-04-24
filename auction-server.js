@@ -72,6 +72,8 @@ const playerImageMap = {
  '크립': '',
  '새벽의악마': '',
  '사미언': ''
+ '호박고구마': 'https://i.imgur.com/agBPWqk.png'
+ 
 
   
  
