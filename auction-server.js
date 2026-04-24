@@ -104,7 +104,7 @@ let playerList = [
    { name: '키죠', tier: 'E', pos: '원딜' },
  { name: '타포', tier: 'E', pos: '원딜' },
  { name: '소실아', tier: 'E', pos: '정글' },
-  { name: '알빠노, tier: 'E', pos: '미드' },
+{ name: '알빠노', tier: 'E', pos: '미드' },
   { name: '스카이캐슬', tier: 'E', pos: '서폿' },
   { name: '까치', tier: 'E', pos: '정글' },
   { name: '포베어', tier: 'E', pos: '탑' },
