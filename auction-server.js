@@ -61,7 +61,17 @@ const playerImageMap = {
 '쿠쿠': 'https://i.imgur.com/3vB3jHn.png',
  '자초봇': 'https://i.imgur.com/IbZK86O.png',
  '소율': 'https://i.imgur.com/JmmwjHN.jpeg',
-
+ '해스크': '',
+'성짹짹이': '',
+ '빙젭': '',
+ '혜철이': '',
+ '물결의': '',
+ '소실아': '',
+ '스카이캐슬': 'https://i.imgur.com/s59phge.png',
+ '장잭': '',
+ '크립': '',
+ '새벽의악마': '',
+ '사미언': ''
 
   
  
