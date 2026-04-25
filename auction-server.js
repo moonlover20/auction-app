@@ -61,17 +61,17 @@ const playerImageMap = {
 '쿠쿠': 'https://i.imgur.com/3vB3jHn.png',
  '자초봇': 'https://i.imgur.com/IbZK86O.png',
  '소율': 'https://i.imgur.com/JmmwjHN.jpeg',
- '해스크': '',
-'성짹짹이': '',
- '빙젭': '',
- '혜철이': '',
- '물결의': '',
- '소실아': '',
+ '해스크': 'https://i.imgur.com/00Grtlu.png',
+'성짹짹이': 'https://i.imgur.com/vHgsmIJ.png',
+ '빙젭': 'https://i.imgur.com/SgPXBL1.png',
+ '혜철이': 'https://i.imgur.com/LyNBOaD.png',
+ '물결의': 'https://i.imgur.com/x8471nF.png',
+ '소실아': 'https://i.imgur.com/S1RzD0E.png',
  '스카이캐슬': 'https://i.imgur.com/s59phge.png',
- '장잭': '',
- '크립': '',
- '새벽의악마': '',
- '사미언': ''
+ '장잭': 'https://i.imgur.com/frsLxUZ.png',
+ '크립': 'https://i.imgur.com/9R0ZWX7.png',
+ '새벽의악마': 'https://i.imgur.com/lc6aJCM.png',
+ '사미언': 'https://i.imgur.com/iaZ7rWD.png'
  '호박고구마': 'https://i.imgur.com/agBPWqk.png'
  
 
